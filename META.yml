@@ -1,0 +1,19 @@
+--- #YAML:1.0
+name:                Net-iContact
+version:             0.01
+abstract:            iContact API
+license:             ~
+generated_by:        ExtUtils::MakeMaker version 6.36
+distribution_type:   module
+requires:     
+    Digest::MD5:                   0
+    HTTP::Request::Common:         0
+    LWP::UserAgent:                0
+    Test::More:                    0
+    XML::Bare:                     0
+    XML::Generator:                0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Ian Kilgore <ian@icontact.com>
