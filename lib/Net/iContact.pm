@@ -15,7 +15,7 @@ require XML::Generator;
 
 use constant API_BASE => 'http://api.icontact.com/icp/core/api/v1.0/';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $AUTOLOAD;
 
 our %ok_field;
@@ -396,7 +396,7 @@ Net::iContact - iContact API
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =head1 SYNOPSIS
 

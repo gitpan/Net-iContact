@@ -5,7 +5,7 @@ use Test::More tests => 13;
 use Net::iContact;
 
 SKIP: {
-    skip 'no api login info found', 7 unless (open(FH, '< apiinfo') and $_=<FH>);
+    skip 'no api login info found', 13 unless (open(FH, '< apiinfo') and $_=<FH>);
 
     chomp;
     my ($user, $pass, $key, $secret) = split(/:/);
